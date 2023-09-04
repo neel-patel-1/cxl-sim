@@ -11,7 +11,7 @@ def main():
     
     print( "Starting Buffer Simulation...")
 
-    h2dreq = cxl_trans.Trans(100, "H2D", "Request")
+    h2dreq = cxl_trans.H2DRequest()
     print( sum_latencies([h2dreq]) )
 
 
